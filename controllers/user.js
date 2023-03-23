@@ -12,6 +12,7 @@ return  usersModel.create(User)
    
 function getUser(id)
 {
+    console.log("fadi")
     return usersModel.find(id);
 }
 
