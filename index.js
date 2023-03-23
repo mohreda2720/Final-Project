@@ -16,6 +16,7 @@ async function main() {
 }
 mongoose.connection.on("connected", () => {
     console.log(`connected to mongoDB`)
+    console.log("shroukgamal");
 })
 mongoose.connection.on("disconnected", () => {
     console.log(`disconnected to mongoDB!`)
